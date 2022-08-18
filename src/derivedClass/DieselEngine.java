@@ -6,8 +6,8 @@ public class DieselEngine extends IcEngine {
 
     private String fuelType;
 
-    public DieselEngine(long modelNo, double displacement, double maxPower, double maxRpm, String fuelType) {
-        super(modelNo, displacement, maxPower, maxRpm);
+    public DieselEngine(long modelNo, double displacement, double maxPower, double maxRpm, String fuelType, int noOfCylinder) {
+        super(modelNo, displacement, maxPower, maxRpm, noOfCylinder);
         this.fuelType = fuelType;
     }
 
